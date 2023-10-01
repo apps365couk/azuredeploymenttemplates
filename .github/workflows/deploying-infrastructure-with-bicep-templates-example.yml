@@ -5,7 +5,7 @@ name: Build and deploy my Infrastructure to Azure template
 on:
   push:
     branches:
-      - main # Change this to any other branch you wish to deploy to
+      - nameofyourbranch # Change this to any other branch you wish to deploy to
 
 jobs:
   infrastructure: # You can change this name to anything else you wish
