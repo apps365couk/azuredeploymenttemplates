@@ -6,7 +6,7 @@ param appName string
 
 ## Example NodeJS app Service Plan Resource
 resource nodeJSappServicePlan 'Microsoft.Web/serverfarms@2022-09-01' = {
-  name: njsExAppAppSPlan
+  name: servicePlan
   location: location
   sku: {
     name: appSKU
