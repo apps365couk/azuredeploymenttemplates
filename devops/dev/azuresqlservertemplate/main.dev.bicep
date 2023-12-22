@@ -32,7 +32,6 @@ resource database 'Microsoft.Sql/servers/databases@2021-11-01' = {
   properties: {
     maxSizeBytes: 2147483648
     collation: 'SQL_Latin1_General_CP1_CI_AS'
-    sampleName: 'AdventureWorksLT'
     zoneRedundant: false
     readScale: 'Disabled'
   }

@@ -1,10 +1,8 @@
-## Example bicep snippets to deploy resources 
 param location string
 param appSKU string
 param servicePlan string
 param appName string
 
-## Example NodeJS app Service Plan Resource
 resource nodeJSappServicePlan 'Microsoft.Web/serverfarms@2022-09-01' = {
   name: servicePlan
   location: location
@@ -17,7 +15,6 @@ resource nodeJSappServicePlan 'Microsoft.Web/serverfarms@2022-09-01' = {
   kind: 'app,linux'
 }
 
-## Example NodeJS app Service Resource
 resource njsAppService 'Microsoft.Web/sites@2022-09-01' = {
   name: appName
   location: location
