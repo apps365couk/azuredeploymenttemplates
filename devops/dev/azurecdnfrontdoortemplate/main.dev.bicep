@@ -78,3 +78,10 @@ resource frontDoorRoute 'Microsoft.Cdn/profiles/afdEndpoints/routes@2021-06-01' 
     enabledState: 'Enabled'
   }
 }
+
+/**
+
+Reference:
+https://learn.microsoft.com/en-us/azure/frontdoor/create-front-door-bicep?tabs=CLI
+
+*/
